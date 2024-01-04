@@ -16,3 +16,15 @@ a{
 a:hover{
     border-bottom: 2px solid black;
 }
+
+.nav-bar{
+    display: flex;
+}
+
+input {
+    height: 1.25rem;
+}
+
+.logo img {
+    width: 5rem;
+}
