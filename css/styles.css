@@ -2,4 +2,17 @@
     margin: 0;
     padding: 0;
 }
+/* header */
+ul {
+    list-style: none;
+}
 
+a{
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    
+}
+
+a:hover{
+    border-bottom: 2px solid black;
+}
