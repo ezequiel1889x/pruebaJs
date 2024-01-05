@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* header */
 ul {
@@ -13,13 +14,15 @@ a{
     
 }
 
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
 a:hover{
     border-bottom: 2px solid black;
 }
 
-.nav-bar{
-    display: flex;
-}
 
 input {
     height: 1.25rem;
@@ -27,4 +30,32 @@ input {
 
 .logo img {
     width: 5rem;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 1.25rem;
+    
+}
+
+
+.direcciones ul li {
+padding: 0px 10px ;
+
+
+    
+}
+
+.direcciones {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.usuario{
+    display: flex;
+    align-items: center;
+    padding-right: 3rem;
+
 }
