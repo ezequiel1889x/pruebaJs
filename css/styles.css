@@ -15,12 +15,10 @@ a{
 }
 
 .nav-bar{
+    background-color: rgba(51, 102, 44, 0.801);
     display: flex;
     justify-content: space-between;
     font-size: 1.25rem;
-}
-a:hover{
-    border-bottom: 2px solid black;
 }
 
 
@@ -38,18 +36,20 @@ input {
     
 }
 
-
-.direcciones ul li {
-padding: 0px 10px ;
-
-
-    
-}
-
 .direcciones {
     display: flex;
     align-items: center;
 }
+
+.direcciones ul li {
+    padding: 0px 10px ;   
+}
+
+
+.direcciones ul li a:hover{
+    border-bottom: 2px solid black;
+}
+
 
 
 
@@ -58,4 +58,8 @@ padding: 0px 10px ;
     align-items: center;
     padding-right: 3rem;
 
+}
+
+.usuario ul li a:hover{
+    border-bottom: 2px solid black;
 }
